@@ -1,46 +1,46 @@
-visual-search-vlm
+visual-search-vlm :
 This project implements a visual search system using OpenAI's CLIP model. It lets users input a natural language query (e.g., "a cat on a sofa") and retrieves the most relevant images from a dataset based on semantic similarity. A simple Streamlit app is included for easy interaction
 
-🎨 Visual Search for Artwork using CLIP
+🎨 Visual Search for Artwork using CLIP :
 This project lets you search for artworks using simple text like:
 
 > "a surreal painting with stars"  
 > "an impressionist landscape with sunset"
 
 It uses CLIP, a powerful AI model from OpenAI, to match your text with the most relevant images from your art dataset.
-🔧 How to Run It
+🔧 How to Run It:
 
-1. Clone the project
+1. Clone the project-
 git clone https://github.com/Madhumitha-07/visual-search-vlm
 cd visual-search-art
 
-2. Install the required libraries
+2. Install the required libraries-
 pip install -r requirements.txt
 
-3. Add your artwork images
+3. Add your artwork images-
 Put your .jpg or .png images inside the art_dataset/ folder.
 
-4. Start the web app
+4. Start the web app-
 streamlit run app.py
 
-🧠 How It Works
+🧠 How It Works :
 The model converts both images and your text into numbers (embeddings).
 It compares how similar your text is to each image.
 It shows the top 5 most similar images
 
-🖼️ Example Queries
+🖼️ Example Queries :
 "a painting of a forest in autumn"
 "a digital artwork of space"
 "a colorful abstract composition"
 
-🗂 Project Files
+🗂 Project Files :
 File	Purpose
 app.py      	    - The Streamlit web app
 vlm_search.py	    - Code to search images using CLIP
 art_dataset/	    - Folder with artwork images
 requirements.txt	- List of libraries to install
 
-✅ Requirements
+✅ Requirements :
 Python 3.7+
 Libraries:
 torch
@@ -52,11 +52,11 @@ tqdm
 Install them with:
 pip install -r requirements.txt
 
-🙌 Credits
+🙌 Credits :
 CLIP by OpenAI
 Hugging Face model: openai/clip-vit-base-patch32
 
-📄 LICENSE
+📄 LICENSE :
 MIT License
 Copyright (c) 2025 [Madhumitha V]
 
