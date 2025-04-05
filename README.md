@@ -11,7 +11,7 @@ It uses CLIP, a powerful AI model from OpenAI, to match your text with the most 
 🔧 How to Run It
 
 1. Clone the project
-git clone https://github.com/yourusername/visual-search-art.git
+git clone https://github.com/Madhumitha-07/visual-search-vlm
 cd visual-search-art
 
 2. Install the required libraries
