@@ -43,10 +43,10 @@ requirements.txt	- List of libraries to install
 ✅ Requirements :
 Python 3.7+
 Libraries:
-torch
-transformers
-streamlit
-Pillow
+torch,
+transformers,
+streamlit,
+Pillow,
 tqdm
 
 Install them with:
